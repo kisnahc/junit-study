@@ -1,10 +1,11 @@
 package com.example.junitstudy.controller;
 
+import com.example.junitstudy.service.MemberService;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class MemberControllerTest {
+
+    private MemberService memberService;
 
 }
