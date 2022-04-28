@@ -1,4 +1,4 @@
-package com.example.junitstudy.domain;
+package com.example.junitstudy.domain.member;
 
 import lombok.AccessLevel;
 import lombok.Builder;
@@ -20,10 +20,13 @@ public class Member {
     @Column(name = "member_id")
     private Long id;
 
+    @Column(nullable = false)
     private String username;
 
+    @Column(nullable = false, unique = true)
     private String nickName;
 
+    @Column(nullable = false)
     private String password;
 
     @Builder

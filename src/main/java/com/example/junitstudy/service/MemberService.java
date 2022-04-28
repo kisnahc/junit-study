@@ -1,6 +1,6 @@
 package com.example.junitstudy.service;
 
-import com.example.junitstudy.domain.Member;
+import com.example.junitstudy.domain.member.Member;
 
 import java.util.List;
 
@@ -11,7 +11,8 @@ public interface MemberService {
 
     List<Member> getAll();
 
-    void updateNickname(String nickName);
+    Member updateNickname(Long id, String nickName);
 
+    Member getByNickname();
     void delete(Long id);
 }

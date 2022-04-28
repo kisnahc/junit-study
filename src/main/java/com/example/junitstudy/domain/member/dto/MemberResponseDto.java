@@ -1,6 +1,6 @@
-package com.example.junitstudy.domain.dto;
+package com.example.junitstudy.domain.member.dto;
 
-import com.example.junitstudy.domain.Member;
+import com.example.junitstudy.domain.member.Member;
 import lombok.Data;
 
 @Data

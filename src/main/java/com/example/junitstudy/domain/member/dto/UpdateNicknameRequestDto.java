@@ -1,4 +1,4 @@
-package com.example.junitstudy.domain.dto;
+package com.example.junitstudy.domain.member.dto;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
